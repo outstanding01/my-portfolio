@@ -8,7 +8,7 @@
     },
     {
         "title": "JAVASCRIPT",
-        "imagesrc":"skill/javascriptimg.png"
+        "imagesrc":"skill/js.png"
     },
     {
         "title": "REACT",
@@ -16,7 +16,11 @@
     },
     {
         "title": "GIT", 
-        "imagesrc":"skill/gitimg.png"
+        "imagesrc":"skill/Git_icon.svg.png"
+    },
+    {
+        "title": "GITHUB", 
+        "imagesrc":"skill/github-mark.svg"
     }
 ]
 
