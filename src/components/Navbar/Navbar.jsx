@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+ import React, {useState} from 'react'
 import styles from "./Navbar.module.css";
 import {getImageUrl} from "../../utils"
 export const Navbar = () => {
@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
         <a className={styles.title} href="/">Portfolio</a>
         <div className={styles.menu}>
-            <img className={styles.menuItems} style={{height: '23px' }} src={menuOpen
+            <img className={styles.menubtn} style={{height: '23px' }} src={menuOpen
                  ?getImageUrl('nav/closeIcon.png') : getImageUrl('nav/barmenu.png')} alt="meun-button"
                  onClick={() => setmenuOpen(!menuOpen)} />
                  
