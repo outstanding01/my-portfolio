@@ -28,7 +28,7 @@
 
 .menuitems a {
     font-size: 25px;
-    color: #000000;
+    color: #dedce1;
     text-decoration: none;
 }
 
@@ -70,6 +70,13 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+
+    .title {
+        font-size: 25px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #dedce1;
     }
 }
 
