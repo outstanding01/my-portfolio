@@ -38,6 +38,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    a:hover {
+        color: rgb(37, 145, 27);
+    }
 
      .menu {
         position: absolute;

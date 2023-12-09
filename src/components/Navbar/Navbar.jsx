@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-        <a className={styles.title} href="/">OLAISGREAT</a>
+        <a className={styles.title} href="/"><img src="/favicon.ico" alt="ola logo" /></a>
         <div className={styles.menu}>
             <img className={styles.menubtn} style={{height: '23px' }} src={menuOpen
                  ?getImageUrl('nav/closeIcon.png') : getImageUrl('nav/barmenu.png')} alt="meun-button"
